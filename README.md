@@ -1,14 +1,14 @@
 
-The BlogList
+**The BlogList**
 
 
-What is it?
+**What is it?**
 
 A website where users can post links to their favourite software engineering articles and books. The website utilises a rating system to identify the best resources.
 
 
 
-Technologies Used
+**Technologies Used**
 
 MongoDB
 Express.js
@@ -26,13 +26,13 @@ Redux
 Axios
 
 
-Live Site 
+**Live Site **
 
 https://sleepy-mesa-05065.herokuapp.com/
 
 
 
-Features 
+**Features **
 
 Users can:
 Register a new user 
