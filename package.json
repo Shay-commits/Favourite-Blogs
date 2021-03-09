@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --runInBand --detectOpenHandles",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build:ui": "rm -rf build && cd ../../part5/bloglist-frontend && npm run build --prod && cp -r build '../../part4/blog 2'",
+    "deploy": "git push heroku main",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",    
+    "logs:prod": "heroku logs --tail"
+  
   },
   "author": "Shay",
   "license": "UNLICENSED",
