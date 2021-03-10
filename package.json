@@ -8,13 +8,13 @@
     "start": "node index.js",
     "build:ui": "rm -rf build && cd ../../part5/bloglist-frontend && npm run build --prod && cp -r build '../../part4/blog 2'",
     "deploy": "git push heroku main",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",    
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",
     "logs:prod": "heroku logs --tail"
-  
   },
   "author": "Shay",
   "license": "UNLICENSED",
   "dependencies": {
+    "@babel/core": "^7.13.1",
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
