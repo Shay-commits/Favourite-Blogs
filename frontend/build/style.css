@@ -1,0 +1,214 @@
+body {
+    margin: 2rem;
+    background-color: #FFFEF2;
+    margin-top: 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+
+    font-family: monospace;
+    background-color: none;
+    color: none;
+    background: none;
+}
+.bodycont1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 52%;
+}
+
+.headerlogo {
+    grid-column: 1 ;
+    font-family: 'Concert One', cursive;;
+    font-size: 40px;
+    margin: 0;
+}
+
+.headerlink {
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.headeruser {
+
+    font-family: monospace;
+    font-size: 15px;
+    
+    padding-top: 25px;
+    text-align: right;
+
+}
+
+
+.headeruser > a {
+
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+    text-align: right
+
+}
+
+
+.maincont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}
+
+
+.imagecont {
+    grid-column: 1 
+
+}
+
+.contentcont {
+    display: grid;
+    font-family: monospace;
+    grid-template-columns: 1fr 40% 1fr;
+    grid-template-rows: 20% 60% 1fr;
+}
+
+
+.contentheading {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.contenttext {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    margin-top: 5rem;
+}
+
+.contentbutton {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    margin-top: 19rem;
+}
+
+.contentheading > h3 {
+    
+    font-size: 30px;
+    margin: 0
+    
+}
+#root > div > div.maincont > div.contentcont > p { 
+width: 50%;
+margin-left: 5rem; }
+
+#root > div > div.maincont > div.imagecont > img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+#root > div > div.maincont > div.contentcont > button {
+    
+    width: 20%;
+    margin-left: 5em;
+}
+
+#root > div > div.maincont > div.contentcont > div.contentbutton > button > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.70rem;
+
+}
+
+#root > div > div.maincont > div.contentcont > div.contentbutton > button {
+    background-color: black;
+    margin: 0;
+    padding: 0.25rem 2rem;
+}
+
+
+/* Blog Form Styling */
+
+.formcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+
+}
+
+.blogform {
+    grid-column: 2;
+    text-align: center;
+}
+
+.blogformheading {
+    grid-column: 2;
+    text-align: center;
+}
+
+.blogformheading > h2 {
+    font-size: 15px;
+
+}
+
+.blogform > form > div > input {
+
+    margin-bottom: 1rem;
+    width: 100%;
+    
+}
+
+.input > p {
+
+
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.blogbutton {
+    font-size: 10px;
+    padding: 0.25rem 3.5rem;
+}
+
+.newtest {
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+
+.listhead {
+    font-weight: bold;
+
+}
+
+.bloglistcont {
+    margin-top: 3rem;
+}
+
+.blogtest {
+    margin-left: 1rem;
+
+}
+
+.blogtest > button {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hiddennewtest {
+    margin-left: 1rem;
+    
+
+}
+
+.hiddennewtest > p {
+    margin-bottom: 0.5rem;
+}
